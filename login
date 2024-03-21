@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="loginin.html">Login</a>
+  <a href="#contact">Contact</a>
+  <a href="./gallery.html">Gallery</a>
+  <a href="#about">About</a>
+</div>
+<h2>Login</h2>
+
+<img src= "https://i.pinimg.com/474x/2d/1d/6c/2d1d6c77fa881e0fa83310d5dd161e49.jpg" width="180" height="180"></img>
+
+
+<form>
+  <label for="fname">Full Name:</label><br>
+  <input type="text" id="fname" name="fname" value="Hind Mohammad"><br>
+  <label for="lname">Email:</label><br>
+  <input type="text" id="lname" name="lname" value="mohammad.2@themetroschool.org"><br><br>
+  <button type="button" onclick="alert('Log In')">Login</button>
+
+</form> 
+
+
+
+<p>New to digital girls? Create an account!</p>
+<button type="button" onclick="alert('Create Account Page')">Join</button>
+
+
+</body>
+</html>
