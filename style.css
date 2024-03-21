@@ -2,9 +2,104 @@ html {
   height: 100%;
   width: 100%;
 }
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+body {
+  margin: 0;
+  font-family: Times New Roman, Times New Roman, Times New Roman;
+  background-color: #e9c3da76;
+  color: Gray
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9c3da76;
+}
+
+.topnav a {
+  float: left;
+  background-color: #e9c3da76;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: gray
+}
+
+.topnav a:hover {
+  background-color: #d237a4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #151415;
+  color: #e9c3da76;
+  <!DOCTYPE html>
+
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+
+}
+
+<html>
+<head>
+<style>
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+  
+
+
+
+
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #aa0454;
+}
+
+button:hover {
+  background-color: #aa0454;
+  color: white;
+}
+
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #aa0454;
+}
+
+button:hover {
+  background-color: #aa0454;
+  color: white;
+}
+
+
+
+
